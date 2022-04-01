@@ -56,6 +56,7 @@ const AddPost = (props) => {
       required
       onChange={handleChange}
       />
+      
     </div>
     <div> Story:
       <label 
