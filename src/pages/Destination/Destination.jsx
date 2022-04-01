@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import DestinationForm from '../../components/DestinationForm/DestinationForm';
 import DestinationList from '../../components/DestinationList/DestinationList';
 import * as destService from '../../services/destService'
+import './Destination.css'
 
 const Destination = (props) => {
 const [locations, setLocations] = useState([])
@@ -15,7 +16,7 @@ useEffect(() => {
 
   return ( 
     <>
-      <h1>Where have you always wanted to go?</h1>
+      <h1 id="destination">To where do you yearn...?</h1>
       <DestinationForm handleAddDestination={props.handleAddDestination}/>
       <hr />
       <DestinationList key={locations._id} />

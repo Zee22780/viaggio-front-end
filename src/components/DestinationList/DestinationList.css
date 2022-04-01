@@ -1,0 +1,14 @@
+
+
+@media screen and (max-width: 540px) {
+.dest-list {
+  background-color: whitesmoke;
+  display: block;
+  margin: 5px;
+  width: 50%;
+  text-align: center;
+  margin-left: 76px;
+  border-radius: 8px;
+}
+
+}
